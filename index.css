@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(./reset.css);
+@font-face {
+  font-family: Epilogue_Bold;
+  src: url(./fonts/static/Epilogue-Bold.ttf);
+}
+@font-face {
+  font-family: Epilogue_Light;
+  src: url(./fonts/static/Epilogue-Light.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: Epilogue_Bold;
+  color: #2d2d2d;
+}
+.navigation {
+  width: 100%;
+  height: 78px;
+  padding: 24px 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.min_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 2px;
+  gap: 24px;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+
+  text-decoration: none;
+  font-family: Epilogue_Light;
+  font-size: 14px;
+  font-weight: 500;
+}
+.header {
+  width: 100%;
+  padding: 42px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 68px;
+}
+.header_left {
+  width: calc(50% - 68px);
+  height: 328px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.text_up {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.text_midl {
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 69.7px;
+}
+.text_bottom {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.a_contact {
+  width: 211px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d2d2d;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+.headr_right {
+  width: calc(50% - 68px);
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img_header {
+  width: 480px;
+  height: 360px;
+}
+.logo_bar {
+  height: 130.83px;
+  padding: 42px 68px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  flex-direction: row;
+}
+.skills_section {
+  width: 100%;
+  height: 513px;
+  padding: 42px 24px;
+  gap: 42px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.card_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.skills_card_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+}
+.skills_card{
+  width: 394.67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
+  
+
+}
+
+.arrow_1{
+  display: flex;
+  position: absolute;
+  top: 40.32px;
+  left:35.47px ;
+  
+  
+}
+.arrow_2{
+  display: flex;
+  position: absolute;
+  top: 5px;
+  right: 0px ;
+  
+  
+}
+.arrow_3{
+  display: flex;
+  position: absolute;
+  bottom:  0;
+  left:  0px ;
+  
+  
+}
+
+* {
+  outline: dotted 1px red;
+}
